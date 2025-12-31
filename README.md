@@ -29,15 +29,8 @@ Create a `.env` file in the project root to configure the embedding model:
 
 ```bash
 # .env file
-model_name=all-MiniLM-L6-v2
+model_name= `Embedding Model Name`
 ```
-
-**Recommended Models:**
-- `all-MiniLM-L6-v2` (default, fast and efficient)
-- `all-mpnet-base-v2` (better accuracy, slower)
-- `paraphrase-MiniLM-L6-v2` (good for semantic similarity)
-
-If no `.env` file is provided, the system will use `all-MiniLM-L6-v2` as the default model.
 
 ## Database Setup
 
